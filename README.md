@@ -1,3 +1,56 @@
+
+# REACT 🚀
+
+Welcome to **REACT**, my repository for learning and practicing React development.
+
+## About
+
+This repository contains my React practice code, experiments, notes, and mini projects as I learn modern frontend development.
+
+## Topics
+
+* JSX
+* Components
+* Props
+* State
+* Event Handling
+* Forms
+* React Hooks
+* API Calls
+* React Router
+* Vite
+
+## Tech Stack
+
+* React
+* JavaScript
+* HTML
+* CSS
+* Vite
+* Git & GitHub
+
+## Run Locally
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Goal
+
+To build a strong foundation in React and develop real-world web applications.
+
+## Author
+
+**Dikesh Sapkota**
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
