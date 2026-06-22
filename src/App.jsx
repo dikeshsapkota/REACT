@@ -1,14 +1,18 @@
 
 import Navbar from "./components/Navbar";
 import MainContent from "./components/MainContent";
-
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-    <h1>Hello World</h1>
-    <MainContent/>
+   
+  
      <Navbar />
+     <header/>
+       <MainContent/>
+       <footer/>
     </>
   );
 }
