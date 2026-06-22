@@ -1,11 +1,11 @@
-
+import viteLogo from "../assets/vite.svg";
 function Header() {
     return (
-        <header>
-            <img src=".assets/vite.svg" width="40px" alt="React logo" />
+        <header className="header">
+            <img src={viteLogo} className="nav-logo" alt="Vite logo" />
             <nav>
-      <h2>My Website</h2>
-      <ul>
+   
+      <ul className="nav-links">
         <li>Home</li>
         <li>About</li>
         <li>Contact</li>
