@@ -10,7 +10,7 @@ body {
   padding: 40px;
   min-height: 100%;
 }
-html,  #root {
+html, body, #root {
   min-height: 100%;
 }
 
@@ -22,8 +22,12 @@ html,  #root {
 
 main {
   flex: 1;
+  
 }
-
+.main-content{
+justify-content: center;
+  align-items: center;
+}
 footer {
   margin-top: auto;
 }
@@ -37,7 +41,11 @@ footer {
   margin-bottom: 40px;
   border-radius: 10px;
 }
-
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .nav-logo {
   width: 40px;
 }
@@ -65,4 +73,13 @@ nav h2 {
 h1 {
   color: navy;
   margin-bottom: 20px;
+}
+
+h2 {
+  color: navy;
+  margin: 20px;
+  
+}
+h3 {
+  color: navy;
 }
