@@ -1,35 +1,41 @@
+# React Facts
 
-# REACT 🚀
+A simple React-based static webpage built while learning React fundamentals. This project demonstrates component-based architecture, JSX, asset management, state management, and basic styling using CSS.
 
-Welcome to **REACT**, my repository for learning and practicing React development.
+## Features
 
-## About
+* Responsive header with navigation links
+* React logo with dynamic logo switching functionality
+* Main content section displaying React facts and learning goals
+* Footer section
+* Custom styling using CSS
+* Built with React and Vite
 
-This repository contains my React practice code, experiments, notes, and mini projects as I learn modern frontend development.
-
-## Topics
-
-* JSX
-* Components
-* Props
-* State
-* Event Handling
-* Forms
-* React Hooks
-* API Calls
-* React Router
-* Vite
-
-## Tech Stack
+## Technologies Used
 
 * React
-* JavaScript
-* HTML
-* CSS
+* JavaScript (ES6+)
+* JSX
+* CSS3
 * Vite
-* Git & GitHub
 
-## Run Locally
+## Project Structure
+
+```text
+src/
+├── assets/
+│   ├── react-logo.png
+│   └── react-logo2.jpeg
+├── components/
+│   ├── Header.jsx
+│   ├── MainContent.jsx
+│   └── Footer.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Getting Started
 
 Install dependencies:
 
@@ -43,29 +49,27 @@ Start the development server:
 npm run dev
 ```
 
-## Goal
+Build for production:
 
-To build a strong foundation in React and develop real-world web applications.
+```bash
+npm run build
+```
+
+## Learning Objectives
+
+This project was created to practice:
+
+* Creating React components
+* JSX syntax
+* Component composition
+* React state with `useState`
+* Event handling
+* Importing assets
+* CSS styling
+* Vite project structure
 
 ## Author
 
 **Dikesh Sapkota**
 
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Learning React and modern frontend development.

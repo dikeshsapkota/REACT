@@ -6,11 +6,15 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #f8f9fa;
+  background-color: #e0effb;
   padding: 40px;
   min-height: 100%;
+
 }
-html, body, #root {
+
+html,
+body,
+#root {
   min-height: 100%;
 }
 
@@ -20,18 +24,7 @@ html, body, #root {
   flex-direction: column;
 }
 
-main {
-  flex: 1;
-  
-}
-.main-content{
-justify-content: center;
-  align-items: center;
-}
-footer {
-  margin-top: auto;
-}
-
+/* Header */
 .header {
   display: flex;
   align-items: center;
@@ -41,11 +34,17 @@ footer {
   margin-bottom: 40px;
   border-radius: 10px;
 }
+
 .brand {
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
+header h3 {
+  color: navy;
+}
+
 .nav-logo {
   width: 40px;
 }
@@ -56,9 +55,6 @@ nav {
   gap: 30px;
 }
 
-nav h2 {
-  font-size: 24px;
-}
 
 .nav-links {
   list-style: none;
@@ -70,16 +66,40 @@ nav h2 {
   font-weight: 600;
 }
 
-h1 {
-  color: navy;
-  margin-bottom: 20px;
+main {
+  flex: 1;
+
 }
 
-h2 {
-  color: navy;
-  margin: 20px;
-  
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
-h3 {
-  color: navy;
+
+button:hover {
+  opacity: 0.8;
+}
+header a{
+  text-decoration: none;
+  color: black;
+}
+/* Main Content */
+.main-content {
+  padding: 40px;
+  border-radius: 10px;
+  color: white;
+  background-color: #170d1d;
+}
+
+.main-content h1,
+.main-content h2 {
+  color: white;
+  margin: 20px;
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
 }
